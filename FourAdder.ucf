@@ -1,0 +1,19 @@
+# ==== Slide Switches (SW) ====
+# Inputs are defined according to vector notation
+NET "Pick" LOC = "H13";
+NET "Bin<0>" LOC = "G18"; # Type = INPUT, Sch name = SW0
+NET "Bin<1>" LOC = "H18"; # Type = INPUT, Sch name = SW1
+NET "Bin<2>" LOC = "K18"; # Type = INPUT, Sch name = SW2
+NET "Bin<3>" LOC = "K17";
+NET "Ain<0>" LOC = "L14";
+NET "Ain<1>" LOC = "L13";
+NET "Ain<2>" LOC = "N17";
+NET "Ain<3>" LOC = "R17";
+
+# LED outputs constraints
+# Outputs are defined according to vector notation
+NET "Sum<0>"  LOC = "J14"; # Sch name = LD0
+NET "Sum<1>"  LOC = "J15"; # Sch name = LD1
+NET "Sum<2>"  LOC = "K15"; # Sch name = LD2
+NET "Sum<3>"  LOC = "K14";
+NET "Overflow"  LOC = "P15";
