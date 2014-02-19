@@ -44,3 +44,4 @@ the second input to two's complement when a value was "high," determined by the 
 - To check for overflow, I used the concept that two's overflow occurs when the carry in and carry out to and from the
 last bit are not the same.  To implement this behavior, I used an xor gate with the third and fourth carry outs as the
 inputs.  When the gate output a 1, overflow had occured.
+- "A level" functionality was demoed
